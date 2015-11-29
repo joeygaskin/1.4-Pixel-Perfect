@@ -774,6 +774,15 @@ ul.footer-mob-connect-copyright li {
   width: 950px;
 }
 
+.footer-mob-contact-text {
+  display: inline-block;
+  vertical-align: top;
+  padding-right: 18px;
+  width: 225px;
+  font-size: .75rem;
+  color: #bbb;
+  margin-top: 10px;
+}
 
 @media screen and  (max-width:960px){
     .nav-container{
@@ -939,13 +948,24 @@ ul.footer-mob-connect-copyright li {
       width: 400px;
     }
     .footer-mob-categories {
-      width: 101%;
+      width: 100%;
+    }
+    .footer-mob-categories-buttons button {
+      width: 197px;
+    }
+    ul.footer-mob-categories-buttons li {
+      margin-left: 0px;
+      margin-right: 0px;
+    }
+    ul.footer-mob-categories-buttons {
+      padding: 0px;
     }
     .footer-mob-connect {
       width: 100%;
+      padding-right: 0px;
     }
     .footer-mob-contact {
-      width: 100%;
+      width: 400px;
     }
     .footer-mob-contact ul {
       display: inline-block;
@@ -955,14 +975,23 @@ ul.footer-mob-connect-copyright li {
       width: 400px;
     }
     .footer-mob-connect-email input{
-      width:350px;
+      width:100%;
     }
     .footer-mob-connect-email {
-      width: 350px;
+      width: 88%;
     }
     .footer-mob-contact-button-1 button {
       width: 320px;
-      margin-left: 40px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    ul.footer-mob-contact-button-1 li {
+      margin-left: 0px;
+    }
+    ul.footer-mob-contact-button-2 {
+      margin-left: 13%;
+      padding: 0px;
     }
 }
 
@@ -983,5 +1012,62 @@ ul.footer-mob-connect-copyright li {
       display: inline-block;
       padding-left: 10px;
     }
+    .footer-container {
+      width: 320px;
+    }
+    .footer-mob-categories-buttons button {
+      width: 157px;
+    }
+    .footer-mob-connect {
+      width: 320px;
+      padding-right: 0px;
+    }
+    .footer-mob-connect-email {
+    width: 85%;
+    }
+    .footer-mob-contact {
+      width: 320px;
+    }
+    ul.footer-mob-contact-button-1 {
+      padding: 0px;
+    }
+    .footer-mob-contact-text {
+      width: 158px;
+    }
+    ul.footer-mob-connect-copyright li {
+      display: block;
+      width: 320px;
+    }
+    .upcoming-section {
+      width: 320px;
+    }
+    .upcoming-start-a-mob {
+      margin-left: 7.5px;
+    }
+    .upcoming {
+      width: 320px;
+    }
+    .main-event-container {
+      width: 320px;
+    }
+    .main-event-sidebar {
+      margin-left: auto;
+      margin-right: auto;
+      width: 96%;
+      display: block;
+    }
+    .U2-event {
+      height: 385px;
+    }
+}
 
+@media screen and  (max-width:400px){
+  .mobber-logo-text {
+    display: none;
+  }
+  .nav-400 {
+    padding-top: 18px;
+    font-size: 1rem;
+    padding-left: 15px;
+  }
 }
