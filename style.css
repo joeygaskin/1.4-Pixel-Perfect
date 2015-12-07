@@ -149,6 +149,7 @@ font-family: 'muli', serif;
 .call-out-container {
   width: 100%;
   height: auto;
+  background-color: white;
 }
 
 .call-out {
